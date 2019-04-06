@@ -1,0 +1,38 @@
+canvas{
+border: 1px solid black;
+background:#070636;
+display:block;
+margin: auto;
+margin-top:auto;
+}
+
+body{
+	background-image: url("img/bg.PNG");
+	background-repeat: no-repeat;
+	background-size: 120%;
+}
+
+#healthBar1,#healthBar2 {
+    display:block;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 15px;
+    background-color:red;
+
+
+}
+
+#specialBar1, #specialBar2{
+    display:block;
+    margin: auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color:rgb(255, 153, 0);
+    height: 15px;
+    width: 0px;
+
+}
+
+
