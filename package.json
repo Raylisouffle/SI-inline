@@ -2,7 +2,7 @@
   "name": "space_invaders_en_ligne",
   "version": "1.0.0",
   "description": "Space invaders en ligne",
-  "main": "server.js",
+  "main": "index.html",
   "dependencies": {
     "finalhandler": "^1.1.1",
     "serve-static": "^1.13.2",
