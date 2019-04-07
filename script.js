@@ -759,7 +759,7 @@ fond.loop = true;
 
 /********* Serveur ***********/
 // Connection à socket.io
-let socket = io.connect('https://spaceinvadersisn.herokuapp.com:8080');
+let socket = io.connect('http://spaceinvadersisn.herokuapp.com:8080');
 // Numero de joueur
 let numeroJoueur = 0;
 // Emettre une requete indiquant la connection
