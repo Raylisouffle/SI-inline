@@ -759,7 +759,7 @@ fond.loop = true;
 
 /********* Serveur ***********/
 // Connection à socket.io
-let socket = io.connect('http://localhost:8080');
+let socket = io.connect('https://spaceinvadersisn.herokuapp.com:8080');
 // Numero de joueur
 let numeroJoueur = 0;
 // Emettre une requete indiquant la connection
@@ -771,6 +771,8 @@ socket.emit('connection', 'Un nouveau joueur s\'est connecté !');
 socket.on('connection', function(message){
 	console.log(message);
 });
+
+
 socket.on('numero', function(numero){
 	numeroJoueur = numero;
 	console.log(numeroJoueur);
@@ -797,6 +799,12 @@ socket.on('tir2', function(){
 });
 socket.on('manches', function(manche){
 	mancheActuel = manche;
+});
+socket.on('playerLeft', function(){
+	
+});
+socket.on('disconnect', function(){
+	socket.emit('disconnect', numeroJoueur);
 });
 
 
