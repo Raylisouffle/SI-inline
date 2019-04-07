@@ -1,14 +1,29 @@
 {
-    "name": "SI",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-      "ejs": "latest",
-      "aws-sdk": "latest",
-      "express": "latest",
-      "body-parser": "latest"
-    },
-    "scripts": {
-      "start": "node server.js"
-    }
-  }
+  "name": "space_invaders_en_ligne",
+  "version": "1.0.0",
+  "description": "Space invaders en ligne",
+  "main": "server.js",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "serve-static": "^1.13.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raylisouffle/SI-inline.git"
+  },
+  "keywords": [
+    "si"
+  ],
+  "author": "loulou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raylisouffle/SI-inline/issues"
+  },
+  "homepage": "https://github.com/Raylisouffle/SI-inline#readme"
+}
